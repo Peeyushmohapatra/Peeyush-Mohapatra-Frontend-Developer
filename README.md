@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## . In this app use can see few detals about racket capsules. For ex: Status, detaisl about capsule, number of mission, number of landing, and many more.
+
 ## Available Scripts
 
 In the project directory, you can run:
