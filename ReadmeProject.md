@@ -8,3 +8,8 @@
 . Responsive Design: The website is designed to adapt to different screen sizes, ensuring a seamless experience on desktop, tablets, and mobile devices.
 
 . Tech Stack: ReactJs, Redux, React-Redux, React-Router-DOM, HTML, CSS, JavaScript.
+
+
+. Project Explain Video : https://drive.google.com/file/d/1AVfDJR9T9BkkS1ZP1oLDCUjJf5SHYnHe/view?usp=sharing
+. Hosted Link: https://peeyush-mohapatra-frontend-developer.vercel.app/
+. Repo Link: https://github.com/Peeyushmohapatra/Peeyush-Mohapatra-Frontend-Developer
