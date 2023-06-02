@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(31,31,45);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+    color: white;
+    justify-content: space-around;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.left img{
+    height: 80%;
+    width: 30%;
+}
+
+.input{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input input{
+    height: 70%;
+    width: 50%;
+    padding-left: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(33,150,243);
+    border-radius: 10px;
+    color: white;
+}
+
+.input input:hover{
+    border-bottom: 2px solid red;
+}
+
+.button{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.button button{
+    height: 70%;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(33,150,243);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.button button:hover{
+    border-bottom: 2px solid red;
+}
+
+.home{
+    color: gray;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (width <= 900px) {
+    .left{
+        height: 100%;
+        width: 50%;
+    }
+
+    .input{
+        height: 100%;
+        width: 50%;
+    }
+
+    .home{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (width <= 800px) {
+    .left{
+        height: 100%;
+        width: 50%;
+    }
+
+    .input{
+        height: 100%;
+        width: 50%;
+    }
+
+    .input input{
+        height: 70%;
+        width: 50%;
+    }
+
+    .home{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+@media screen and (width <= 650px) {
+   
+
+    .left img{
+        height: 40%;
+        width: 20%;
+    }
+}
+
+
+@media screen and (width <= 500px) {
+    .home{
+        font-size: 0.5rem;
+    }
+
+    .left img{
+        height: 40%;
+        width: 20%;
+    }
+
+    .input input{
+        font-size: 0.6rem;
+    }
+
+    .button button{
+        font-size: 0.5rem;
+        
+    }
+}
+
+
+@media screen and (width <= 400px) {
+    .home{
+        font-size: 0.35rem;
+    }
+
+    .left img{
+        height: 20%;
+        width: 20%;
+    }
+
+    .input input{
+        height: 40%;
+        font-size: 0.4rem;
+    }
+
+    .button button{
+        height: 40%;
+        font-size: 0.4rem;        
+    }
+}
